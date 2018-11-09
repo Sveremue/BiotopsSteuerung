@@ -1,4 +1,4 @@
-SELECT * FROM SollDaten WHERE RelL = ?
+SELECT Temperatur, Luftfeuchtigkeit  FROM SollData WHERE Zeitpunkt = ?
 ;
-Datatypes
-INT
+Datatype
+Text
